@@ -1,0 +1,175 @@
+body{
+  font: 15px/1.5 arial,helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*--header--*/
+header{
+  background: #fff;
+  color: #959595;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #ff8010 3px solid;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+header li{
+  text-align: center;
+  display: block;
+  line-height: 70px;
+  border-bottom:  #ff8010 1px solid;
+  clear: both;
+}
+
+li a{
+  padding: 8px;
+  border-radius: 3px;
+}
+
+header a{
+  text-decoration: none;
+  color: #959595;;
+  font-size: 16px
+}
+
+#branding{
+  float: left;
+}
+
+#branding h1{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.highlight, .current a{
+  color: #ff8010;
+  font-weight: bold;
+}
+
+nav{
+  text-align: right;
+  margin-top: 15px;
+  color: #aaa;
+}
+
+nav a:hover{
+  color: #fff;
+  background: #ff8010;
+}
+
+label{
+  font-size: 26px;
+  margin-right: 20px;
+  width: 26px;
+  float: right;
+}
+
+#toogle{
+  display: none;
+}
+
+#toogle:checked + ul{
+  display: block;
+  transition: all 3s linear;
+}
+
+
+
+
+
+/*--showcase--*/
+#showcase{
+  min-height: 260px;
+  background: url('../img/showcase2.jpg') no-repeat 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1{
+  margin-top: 75px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 15px;
+}
+
+/*--keunggulan--*/
+#why{
+  margin-top: 20px
+}
+
+#border1{
+  text-align: center;
+  border-bottom: #ff8010 3px solid;
+  margin-bottom: 40px;
+}
+
+#why h1{
+  text-align: center;
+  color: #ff8010;
+}
+
+.box_1{
+  width: 100%;
+  padding: 0 10px 10px 10px;
+  text-align: center;
+}
+
+.k1{
+  width: 90%;
+}
+
+/*--portofolio--*/
+#portofolio{
+  background: #e1e1e1;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.box_2{
+  max-width: 300px;
+  padding: none;
+  margin:auto;
+  margin-top: 23px;
+}
+
+.box_2 img{
+  width: 100%;
+}
+
+.b2{
+  height: 80%
+}
+
+.box_m{
+  margin: auto;
+}
+
+.att{
+  margin: 100px 0 200px 0;
+}
+
+.att h1{
+  text-align: center;
+  color: #ff8010;
+}
+
+footer{
+  padding: 20px;
+  background: #ff8010;
+  text-align: center;
+}

@@ -1,0 +1,163 @@
+body{
+  font: 15px/1.5 arial,helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*--header--*/
+header{
+  background: #fff;
+  color: #959595;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #ff8010 3px solid;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+header li{
+  display: inline;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+li a{
+  padding: 8px;
+  border-radius: 3px;
+}
+
+header a{
+  text-decoration: none;
+  color: #959595;
+  font-size: 16px
+}
+
+#branding{
+  float: left;
+}
+
+#branding h1{
+  margin: 0;
+}
+
+.highlight, .current a{
+  color: #ff8010;
+  font-weight: bold;
+}
+
+nav{
+  float: right;
+  margin-top: 15px;
+}
+
+nav a:hover{
+  background-color: #ff8010;
+  color: #fff;
+}
+
+label{
+  font-size: 26px;
+  margin-right: 20px;
+  width: 26px;
+  float: right;
+  display: none;
+}
+
+#toogle{
+  display: none;
+}
+
+
+/*--showcase--*/
+#showcase{
+  min-height: 400px;
+  background: url('../img/showcase2.jpg') no-repeat 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1{
+  margin-top: 120px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/*--keunggulan--*/
+#why{
+  background: #ff8010;
+}
+
+#border1{
+  text-align: center;
+  border-bottom: #fff 1px solid;
+}
+
+#why h1{
+  text-align: center;
+  color: #fff;
+
+}
+
+#kelebihan{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_1{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.k1{
+  width: 23%;
+}
+
+/*--portofolio--*/
+#portofolio{
+  background: #e1e1e1;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_m{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_2{
+  margin: auto;
+  width: 30%;
+  padding: none;
+}
+
+.box_2 img{
+  width: 100%;
+}
+
+footer{
+  padding: 20px;
+  background: #ff8010;
+  text-align: center;
+}
